@@ -16,13 +16,7 @@ import java.util.* ;
         mainRoots = bm.FindRoot(-10, 10, 100);
         for(int i=0; i<mainRoots.size(); i++){
             System.out.println(i+1 + ": " + mainRoots.get(i));
-            
-            
-            
-            
-            
-            
-            //hamid
+            //hamid osouli and hojjat abdoli
         }
         
     }
