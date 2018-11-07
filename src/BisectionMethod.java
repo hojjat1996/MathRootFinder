@@ -36,13 +36,11 @@ public class BisectionMethod {
             double fa1 = FunctionValue(a1);
             if(fa1 == 0){
                 roots.add(a1) ;
-                System.out.println("fa1 = 0");
             }
             
             double fb1 = FunctionValue(b1);
             if(fb1 == 0){
                 roots.add(b1) ;
-                System.out.println("fb1 = 0");
             }
             
             if(fa1*fb1 < 0){
@@ -50,9 +48,8 @@ public class BisectionMethod {
                 double m  = (b1+a1)/2 ;
                 double fm = FunctionValue(m);
             
-            if(fm == 0.0000000000000000000000000000000){
+            if(fm == 0){
                 roots.add(m) ;
-                System.out.println("fm = 0");
             }
             
             if(fm*fa1>0){

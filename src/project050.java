@@ -2,7 +2,7 @@ import java.util.* ;
  public class project050 {
 
     public static void main(String[] args) {
-        BisectionMethod bm = new BisectionMethod(problem::g);
+        BisectionMethod bm = new BisectionMethod(problem::hamid);
         
         ArrayList<Double> mainRoots ;
 
